@@ -1,0 +1,302 @@
+/*
+  Note: These are temporary previews of the im  ges. 
+  They're active for 10-15 days only. You should replace them with the actual images before using the code in production.
+*/
+
+:root {
+  --custom-width: 100vw;
+  --design-width: 1837;
+  --ratio: calc(var(--custom-width) / var(--design-width));
+}
+
+/* Default classes */
+.pos-abs {
+  position: absolute;
+}
+.fill-parent {
+  width: 100%;
+  height: 100%;
+}
+.bg-contain {
+  background-size: contain;
+  user-select: none;
+}
+.bg-cover {
+  background-size: cover;
+}
+.bg-auto {
+  background-size: auto;
+}
+.bg-crop {
+  background-size: 100% 100%;
+}
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+.pos-init {
+  top: 0px;
+  left: 0px;
+}
+.image-div {
+  background-color: transparent;
+  background-position: center;
+}
+/* Default classes end */
+body {
+  margin: 0px 0px;
+  padding: 0px;
+}
+.parent-div {
+  position: relative;
+  width: var(--custom-width);
+  height: calc(1050 * var(--ratio));
+  overflow: hidden;
+  margin: auto;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.frame-1-122,
+.patedes-1-16 {
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  opacity: 1;
+  z-index: 1;
+  transform: rotate(0deg);
+  overflow: hidden;
+}
+.rectangle-1-12 {
+  width: 104.52%;
+  height: 102.86%;
+  top: 0%;
+  left: 0%;
+  opacity: 1;
+  z-index: 0;
+  transform: rotate(0deg);
+  background: #d9d9d9ff;
+}
+.nodeBg-16,
+.nodeBg-115,
+.nodeBg-113,
+.nodeBg-117,
+.nodeBg-114 {
+  object-fit: cover;
+  opacity: 1;
+}
+.contact-me-118 {
+  width: 36.85%;
+  height: 6.94%;
+  top: 36.16%;
+  left: 5.39%;
+  opacity: 1;
+  z-index: 2;
+  transform: rotate(0deg);
+}
+.purchasenowbutt-17,
+.portfoliobutton-23,
+.rectangle-3-18 {
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  opacity: 1;
+  z-index: 0;
+  transform: rotate(0deg);
+  background: #ffffff1c;
+  box-sizing: border-box;
+  border-left: 1px solid #ffffff94;
+  border-right: 1px solid #ffffff94;
+  border-top: 1px solid #ffffff94;
+  border-bottom: 1px solid #ffffff94;
+}
+.purchase-now-110 {
+  width: 41.36%;
+  height: 56.47%;
+  top: 50%;
+  left: 34.50%;
+  opacity: 1;
+  z-index: 1;
+  transform: rotate(0deg);
+  text-align: left;
+  line-height: 0px;
+}
+.purchase-now-110-0,
+.portfolio-24-0,
+.contact-me-111-0 {
+  font-size: 3.3vh;
+  width: auto;
+  font-family: 'Montserrat', sans-serif; /* Aktualisiere die Schriftart */
+  font-weight: 700; /* Verwende Bold */
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #ffffffff;
+  width: 100%; /* Breite auf 100% setzen */
+  height: 100%; /* Höhe auf 100% setzen */
+  opacity: 1;
+  text-align: center; /* Text zentrieren */
+  line-height: 0px;
+  align-items: center; /* Vertikale Zentrierung */
+  justify-content: center; /* Horizontale Zentrierung */
+
+}
+.portfolio-22 {
+  width: 36.85%;
+  height: 6.94%;
+  top: 45.31%;
+  left: 5.39%;
+  opacity: 1;
+  z-index: 3;
+  transform: rotate(0deg);
+}
+.portfolio-24 {
+  width: 28.8%;
+  height: 56.47%;
+  top: 45%;
+  left: 38.50%;
+  opacity: 1;
+  z-index: 1;
+  transform: rotate(0deg);
+  text-align: left;
+  line-height: 0px;
+}
+.contact-120 {
+  width: 36.85%;
+  height: 6.94%;
+  top: 54.53%;
+  left: 5.39%;
+  opacity: 1;
+  z-index: 4;
+  transform: rotate(0deg);
+}
+.contact-me-111 {
+  width: 32.94%;
+  height: 68.63%;
+  top: 42.94%;
+  left: 37%;
+  opacity: 1;
+  z-index: 1;
+  transform: rotate(0deg);
+  text-align: left;
+  line-height: 0px;
+}
+.logos-119 {
+  width: 26.13%;
+  height: 8%;
+  top: 88.57%;
+  left: 40.77%;
+  opacity: 1;
+  z-index: 5;
+  transform: rotate(0deg);
+}
+.cryptocurrencyr-115 {
+  width: 31.46%;
+  height: 100%;
+  top: 0%;
+  left: 68.54%;
+  opacity: 1;
+  z-index: 2;
+  transform: rotate(0deg);
+  overflow: hidden;
+}
+.telegramlogo-1-113 {
+  width: 18.96%;
+  height: 82.65%;
+  top: 8.16%;
+  left: 26.25%;
+  opacity: 1;
+  z-index: 0;
+  transform: rotate(0deg);
+  overflow: hidden;
+}
+.r-3-1-117 {
+  width: 20.21%;
+  height: 72.45%;
+  top: 11.22%;
+  left: 0%;
+  opacity: 1;
+  z-index: 3;
+  transform: rotate(0deg);
+  overflow: hidden;
+}
+.r-2-1-114 {
+  width: 18.75%;
+  height: 68.37%;
+  top: 15.31%;
+  left: 47.5%;
+  opacity: 1;
+  z-index: 1;
+  transform: rotate(0deg);
+  overflow: hidden;
+}
+html, body {
+  overflow: hidden; /* Verhindert Scrollen */
+  height: 100vh;    /* Stellt sicher, dass die Höhe der Webseite die volle Viewport-Höhe einnimmt */
+  width: 100vw;     /* Stellt sicher, dass die Breite der Webseite die volle Viewport-Breite einnimmt */
+  margin: 0;        /* Entfernt Standardabstände */
+  padding: 0;       /* Entfernt Standardabstände */
+  box-sizing: border-box;
+}
+
+.parent-div {
+  width: 100vw;   /* Stellt sicher, dass das Eltern-Div die volle Breite des Viewports hat */
+  height: 100vh;  /* Stellt sicher, dass das Eltern-Div die volle Höhe des Viewports hat */
+  overflow: hidden; /* Verhindert Scrollen innerhalb des Eltern-Divs */
+}
+
+/* Allgemeiner Button Hover-Effekt */
+a:hover .purchase-now-110-0,
+a:hover .portfolio-24-0,
+a:hover .contact-me-111-0 {
+  color: #630052; /* Ändert die Schriftfarbe beim Hover */
+  transition: color 0.3s ease; /* Glatter Übergang */
+  transform: translateY(5px);
+}
+
+a:hover .purchasenowbutt-17,
+a:hover .portfoliobutton-23,
+a:hover .rectangle-3-18 {
+  background-color: rgba(255, 255, 255, 0.3); /* Leichtes Aufhellen des Buttons beim Hover */
+  border-color: #630052; /* Ändert die Randfarbe beim Hover */
+  transition: background-color 0.3s ease, border-color 0.3s ease; /* Glatter Übergang */
+}
+
+/* Button Hover-Effekt mit Animation */
+.purchasenowbutt-17,
+.portfoliobutton-23,
+.rectangle-3-18 {
+  transition: transform 0.3s ease; /* Hinzufügen des Übergangs für die Transformation */
+}
+
+a:hover .purchasenowbutt-17,
+a:hover .portfoliobutton-23,
+a:hover .rectangle-3-18 {
+  transform: translateY(5px); /* Verschieben nach unten */
+}
+
+/* Rückkehr-Animation beim Verlassen */
+.purchasenowbutt-17,
+.portfoliobutton-23,
+.rectangle-3-18 {
+  transition: transform 0.3s ease; /* Sicherstellen, dass der Rückkehrübergang ebenfalls vorhanden ist */
+}
+
+/* Button Hover-Effekt mit Animation */
+.purchasenowbutt-17,
+.portfoliobutton-23,
+.rectangle-3-18 {
+  transition: transform 0.3s ease; /* Hinzufügen des Übergangs für die Transformation */
+}
+
+/* Effekt für den Link, der sowohl Button als auch Text umfasst */
+a:hover {
+  transform: translateY(5px); /* Verschieben nach unten */
+}
+
+/* Sicherstellen, dass die Rückkehr-Animation ebenfalls vorhanden ist */
+.purchasenowbutt-17,
+.portfoliobutton-23,
+.rectangle-3-18 {
+  transition: transform 0.3s ease; /* Sicherstellen, dass der Rückkehrübergang ebenfalls vorhanden ist */
+}
